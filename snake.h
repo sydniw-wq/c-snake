@@ -4,10 +4,8 @@
 //include statements
 #include <stdio.h> 
 #include <stdlib.h>
-#include <conio.h> //for performing console I/O
 #include <ctype.h> //checks the type of char
 #include <unistd.h>
-#include <console.h> //for interacting with the console
 
 //game boundaries
 #define HEIGHT 20
@@ -33,6 +31,6 @@ void input();
 void logic();
 
 //function to run the game
-void main();
+int main();
 
 #endif //SNAKE_H
